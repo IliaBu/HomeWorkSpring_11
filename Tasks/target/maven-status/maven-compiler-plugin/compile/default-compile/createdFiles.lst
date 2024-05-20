@@ -1,0 +1,4 @@
+ru\gb_spring\tasks\controller\Controller.class
+ru\gb_spring\tasks\model\Task.class
+ru\gb_spring\tasks\repository\TaskRepository.class
+ru\gb_spring\tasks\TaskApplication.class

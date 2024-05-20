@@ -16,8 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Gateway" target="17" />
-      <module name="homeworksprong09" target="17" />
-      <module name="homeworksprong10" target="17" />
+      <module name="homeworkspring11" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

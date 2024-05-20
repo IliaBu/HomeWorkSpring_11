@@ -1,0 +1,31 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: gateway
+
+cloud:
+  gateway:
+    routes:
+      - id: books
+        uri: http://localhost:7551/
+        predicates:
+          - Path=/books/**
+      - id: tasks
+        uri: http://localhost:7552/
+        predicates:
+          - Path=/tasks/**
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      prometheus:
+        enable: true

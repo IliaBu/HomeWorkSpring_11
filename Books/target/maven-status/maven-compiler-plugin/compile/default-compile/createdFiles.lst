@@ -1,0 +1,5 @@
+ru\gb_spring\books\BooksApplication.class
+ru\gb_spring\books\controllers\BookController.class
+ru\gb_spring\books\models\Book.class
+ru\gb_spring\books\repositories\BookRepository.class
+ru\gb_spring\books\services\BookService.class
