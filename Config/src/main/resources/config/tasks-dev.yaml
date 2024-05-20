@@ -1,0 +1,24 @@
+server:
+  port: 7552
+
+spring:
+  application:
+    name: tasks
+  datasource:
+    url: jdbc:h2:file:./mydb2
+    username: admin
+    password: 152367467
+    driverClassName: org.h2.Driver
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  metrics:
+    export:
+      prometheus:
+        enable: true

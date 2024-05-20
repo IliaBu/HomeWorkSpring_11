@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: gateway
+  profiles:
+    active: dev
+  config:
+    import: configserver:http://localhost:8888
+  cloud:
+    config:
+      fail-fast: true
